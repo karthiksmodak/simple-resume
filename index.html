@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style1.css">
+    <script type="text/javascript" src="script1.js"></script>
+    <title>Name Resume</title>
+</head>
+<body onload="welcome()">
+    <center>
+        <h1>
+            <u><font face="Times New Roman">My Resume</font></u>
+        </h1>
+    </center>
+    <img src="images/p2.png" width="150" height="175" alt="candidate_photo" align="right" id="resume_img"><!-- insert photo here-->
+    <h4>
+        <div id="style">
+            &nbsp;&nbsp;&nbsp;<u>Personal Information</u>
+    </h4>
+    <div>
+        <h6>&nbsp;&nbsp;&nbsp;&nbsp; Name:</h6>
+        <h6>&nbsp;&nbsp;&nbsp;&nbsp; DOB: </h6>
+        <h6>&nbsp;&nbsp;&nbsp;&nbsp; Contact: </h6>
+        <h6>&nbsp;&nbsp;&nbsp;&nbsp; Email: <a href="mailto:">sample@gmail.com</a></h6>
+        <h6>&nbsp;&nbsp;&nbsp;&nbsp; Address: </h6>
+        <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/" target="_blank">Github</a></h6><!--Enter your Github username-->
+    </div>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                          <h4>
+                            <div id="style">
+                                 <u>Objectives</u>
+                            </div>
+                          </h4>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h6>
+                            <b>Enter objective</b>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h4 class="accordion-header" id="headingTwo">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+            <h4>
+                <div id="style">
+                    <u>Education</u>
+                </div>
+            </h4>
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+            <h6>
+            <table border="3" width="800">
+                <tr>
+                    <th>Qualification</th>
+                    <th>School/College</th>
+                    <th>Year</th>
+                    <th>Percentage/CGPA</th>
+                </tr>
+                <tr>
+                    <td>SSLC</td>
+                    <td>School Name</td>
+                    <td></td>
+                    <td>%</td>
+                </tr>
+                <tr>
+                    <td>PUC-II</td>
+                    <td>College name</td>
+                    <td></td>
+                    <td>%</td>
+                </tr>
+                <tr>
+                    <td>Degree</td>
+                    <td>College name</td>
+                    <td></td>
+                    <td>%</td>
+                </tr>
+                <tr>
+                    <td>Masters</td>
+                    <td>College name</td>
+                    <td></td>
+                    <td>%</td>
+                </tr>
+            </h6>
+            </table>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                    aria-expanded="true" aria-controls="collapseThree">
+                                <h4>
+                                    <div id="style">
+                                        <u>Professional Skills</u>
+                                    </div>
+                                </h4>
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                        <b>
+                            <h6>
+                                <li>Skill-1</li>
+                                <li>Skill-2</li>
+                                <li>Skill-3</li>
+                            </h6>
+                        </b>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                    aria-expanded="true" aria-controls="collapseFour">
+                        <h4>
+                            <div id="style">
+                                <u>Projects</u>
+                            </div>
+                        </h4>
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                        <b>
+                            <h6>
+                                <li>Enter your projects</li>
+                            </h6>
+                        </b>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                    aria-expanded="true" aria-controls="collapseFive">
+                            <h4>
+                                <div id="style">
+                                    <u>Certifications</u>
+                                </div>
+                            </h4>
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                        <b>
+                            <h6>
+								<li>Insert Certificates here</li>
+                            </h6>
+                        </b>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                    aria-expanded="true" aria-controls="collapseSix">
+                            <h4>
+                                <div id="style">
+                                    <u>Hobbies</u>
+                                </div>
+                            </h4>
+                </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                        <b>
+                            <h6>
+                                <li>Enter hobbies</li>
+                            </h6>
+                        </b>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                    aria-expanded="true" aria-controls="collapseSeven">
+                            <h4>
+                                <div id="style">
+                                    <u>Languages</u>
+                                </div>
+                            </h4>
+                </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse show" aria-labelledby="headingSeven"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                        <b>
+                            <h6>
+                                <li>Enter Languages</li>
+                            </h6>
+                        </b>
+                </div>
+            </div>
+        </div>
+    </div>
+    <center>
+        <button id="download" onclick="download()"><a href="Name_Resume.pdf" download>Download Resume</a></button>
+    </center>
+    <div><p>  </p></div>
+</body>
+</html>
